@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container} id={'pageContainer'}>
       <Head>
-        <title>HyperPlay Browser SDK Demo</title>
+        <title>NovaPlay Browser SDK Demo</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -15,7 +15,7 @@ export default function Home() {
           requestFullscreen({ elementId: 'gameCanvas', setStyle: true })
         }}>Request Fullscreen</button>
         <h1 className={styles.title}>
-          Welcome to the HyperPlay SDK Demo!
+          Welcome to the NovaPlay SDK Demo!
         </h1>
 
         <p className={styles.description}>
